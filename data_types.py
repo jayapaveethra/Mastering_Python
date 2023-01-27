@@ -28,3 +28,12 @@ print("your name as " +new_num_char+" characters") #This line of code will not g
 #if its in integer type it will throw error
 
 print(str(78)+str(100)) #prints 78100
+
+two_digit_number = input("Type a two digit number: ")
+####################################
+#Write your code below this line 👇
+first_digit = two_digit_number[0]
+second_digit = two_digit_number[1]
+
+result = int(first_digit) + int(second_digit)
+print(result)
